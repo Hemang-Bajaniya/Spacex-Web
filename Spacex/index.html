@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacex redesign</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">
+            <a href="https://www.spacex.com/"><img src="img/spacex-logo-black-and-white.png" alt="logo"></a>
+            </div>
+
+            <div class="nav-right">
+                <div class="nav-list">
+                        <a href="#home">Home</a>
+                        <a href="#mission-info">Mission</a>
+                        <a href="#spaceship">Spaceship</a>
+                        <a href="#contact">Contact</a>  
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="search">
+                    <!-- <img src="img/search_FILL0_wght400_GRAD0_opsz48.svg" alt=""> -->
+                </div>
+        </div>
+        </nav>
+
+        <main>
+            <div class="social">
+
+                <div class="icon">
+                    <a href="#">
+                    <img src="img/twitter.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="icon">
+                    <a href="#">
+                    <img src="img/instagram.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="icon">
+                    <a href="#">
+                    <img src="img/facebook.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="icon">
+                    <a href="#">
+                    <img src="img/youtube.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <div class="txt">
+                <p>Space Exploration Technologies Corp. is an American spacecraft manufacturer, space launch provider, and a satellite communications corporation headquartered in Hawthorne, California.</p>
+                <button>Explore</button>
+                </div>
+                <div class="astro">
+                    <img src="img/png.monster-12.webp" alt="">
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <section id="mission-info">
+        <h3>Starlink Mission</h3>
+        <button>LEARN MORE</button>
+    </section>
+
+    <section class="mission container" id="spaceship">
+        <div class="info-1">
+            <div class="block">
+                <h1>FALCON-9</h1>
+                <p>Falcon 9 is a rocket that can carry cargo and humans into Earth orbit, even reaching the International Space Station.</p>
+            </div>
+            <div class="block" id="b1">
+                <h2>GOAL OF FALCON-9</h2>
+                <p>Falcon 9 was designed to compete with the Delta family of launchers in that it can lift payloads of up to 8,300 kg (18,300 pounds) to geostationary orbit. </p>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="block b2" id="fstage">
+                <h2>FIRST STAGE</h2>
+                <p>Falcon 9's first stage incorporates nine Merlin engines and aluminum-lithium alloy tanks containing liquid oxygen and rocket-grade kerosene (RP-1) propellant.</p>
+                <button>LEARN MORE</button>
+            </div>
+            <img src="img/engines.png" alt="">
+            <div class="block">
+                <h2>ENGINE</h2>
+                <p>The nine Merlin engines on the first stage are gradually throttled near the end of first-stage flight to limit launch vehicle acceleration as the rocket’s mass decreases with the burning of fuel. These engines are also used to reorient the first stage prior to reentry and to decelerate the vehicle for landing.</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="rocket" id="rocket">
+            <span class="first" id="first" onmouseover="movein(this)" onmouseleave="moveout(this)"><img src="img/rocket1.png" alt=""></span>
+            <span class="second" onmouseover="movein(this)" onmouseleave="moveout(this)"><img src="img/rocket2.png" alt=""></span>
+            <span class="third" onmouseover="movein(this)" onmouseleave="moveout(this)"><img src="img/rocket3.png" alt=""></span>
+        </div>
+
+        <div class="info-2">
+            <div class="block" id="pay">
+                <h2>PAYLOAD</h2>
+                <p>Dragon is capable of carrying up to 7 people and/or cargo in the spacecraft's pressurized section. In addition, Dragon can carry cargo in the spacecraft's unpressurized trunk, which can also accommodate secondary payloads.</p>
+            </div>
+            <div class="block b2" id="pay">
+                <h2>INTERSATGE</h2>
+                <p>The interstage is a composite structure that connects the first and second stages, and houses the pneumatic pushers that allow the first and second stage to separate during flight.</p>
+            </div>
+            <div class="overview block">
+                <h1>OVERVIEW</h1>
+                <div class="row">
+                    <span>HEIGHT</span>
+                    <span>70 m / 229.6 ft</span>
+                </div>
+                <div class="row">
+                    <span>DIAMETER</span>
+                    <span>3.7 m / 12 ft</span>
+                </div>
+                <div class="row">
+                    <span>MASS</span>
+                    <span>549,054 kg / 1,207,920 lb</span>
+                </div>
+                <div class="row">
+                    <span>PAYLOAD TO LEO</span>
+                    <span>22,800 kg / 50,265 lb</span>
+                </div>
+                <div class="row">
+                    <span>PAYLOAD TO GTO</span>
+                    <span>8,300 kg / 18,300 lb</span>
+                </div>
+                <div class="row">
+                    <span>PAYLOAD TO MARS</span>
+                    <span>4,020 kg / 8,860 lb</span>
+                </div>
+                <img src="img/bus.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="wrapper">
+
+            <div class="copyright">
+                <img src="img/spacex-logo-black-and-white.png" alt="">
+                <span>&copy; copyrighted by sapcex 2022</span>
+            </div>
+            <div class="about">
+                <h3>About Us</h3>
+                <div class="links">
+                <a href="#">Who we are</a>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ's</a>
+                <a href="#">Services</a>
+                <a href="#">Other Companies</a>
+                </div>
+            </div>
+            <div class="company">
+                <h3>company</h3>
+                <div class="links">
+                <a href="#">Careers</a>
+                <a href="#">Leagel</a>
+                <a href="#">Policy</a>
+                <a href="#">Press</a>
+                <a href="#">Blog</a>
+                </div>
+            </div>
+            <div class="social">
+                <h3>socials</h3> 
+                <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="img/twitter.svg" alt="facebook"></a>
+                <a href="#"><img src="img/instagram.svg" alt="facebook"></a>
+                <a href="#"><img src="img/youtube.svg" alt="facebook"></a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
